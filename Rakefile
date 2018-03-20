@@ -17,8 +17,9 @@ namespace :db do
   task :console => :environment do
     Pry.start
   end
+end
 
-
+namespace :greeting
   desc 'outputs hello to the terminal'
   task :hello do
     puts "hello from Rake!"
